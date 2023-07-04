@@ -34,7 +34,7 @@ a {
 .main {
   display: grid;
   grid-template-columns: auto auto;
-  width:2000px;
+  width: 2000px;
   margin-top: 150px;
   position: relative;
   top: 0;
@@ -163,7 +163,7 @@ a {
 
 .about-position {
   background-color: #5f5fdc;
-  width:2000px;
+  width: 2000px;
   height: 650px;
 }
 
@@ -250,7 +250,7 @@ a {
 
 .education-section {
   background-color: #5f5fdc;
-  width:2000px;
+  width: 2000px;
   height: 650px;
 }
 .University-info {
@@ -343,7 +343,7 @@ a {
 
 .Projects-section {
   background-color: #5f5fdc;
-  width:2000px;
+  width: 2000px;
   height: 650px;
 }
 .grid-figure {
@@ -415,8 +415,7 @@ figure.project-animation.hover figcaption {
 }
 .footer-section {
   border: 1px solid #4545f8;
-  width:2000px;
-
+  width: 2000px;
 }
 .number {
   display: inline;
@@ -444,7 +443,7 @@ figure.project-animation.hover figcaption {
   border-bottom: #8585ec;
 }
 .References-section {
-   width:2000px;
+  width: 2000px;
   height: 650px;
 }
 .img-reference {
@@ -473,204 +472,141 @@ figure.project-animation.hover figcaption {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
- 
-  .name {
-    font-size: 30px;
+  .main {
+    grid-template-columns: auto auto;
+    margin-top: 100px;
   }
-  .main-paragraph {
-    font-size: 25px;
-    padding-left: 5px;
-  }
+
   .image {
-    left: 280px;
-    width: 500px;
-    bottom: 0px;
+    width: 900px;
+    margin-bottom: 0 px;
+    margin-left: 0px;
   }
 
-  .main-triangle {
-    border: 1px solid #8585ec;
-    width: 300px;
-    height: 500px;
-    background-color: #8585ec;
+  .main-paragraph {
+    font-size: 50px;
   }
 
+  .main-right{
+margin-left: 100px;
+  }
+.main-triangle{
+  height:800px
+}
   .main-button {
-    font-size: 20px;
-    margin-left: 10px;
-
-    width: 200px;
+    margin-left: 0;
+    margin-bottom: 20px;
   }
-
+.heading-purple{
+  font-size: 60px;
+}
+.heading{
+  font-size: 60px;
+}
   .icons {
-    margin-top: 80px;
+    margin-top: 50px;
   }
-  .github-icon {
-    font-size: 40px;
-  }
-
-  .linkedin-icon {
-    font-size: 40px;
-  }
-
-  .whatsapp-icon {
-    font-size: 40px;
-  }
-
-  .facebook-icon {
-    font-size: 40px;
-  }
-  /* about */
-  .about-position {
- 
-    height: 500px;
-  }
-
-  .margin {
-    margin-left: 50px;
-  }
-
-  .heading {
-    padding-top: 20px;
-  }
-
-  .about-Heading2 {
-    font-size: 30px;
-  }
-
-  .about-body {
-    font-size: 24px;
-  }
-
-  .heading-purple {
-    font-size: 30px;
-  }
-  .heading {
-    font-size: 30px;
-  }
-  /* Skills */
+  /* skills */
 
   .technical-heading {
-    font-size: 35px;
-
-    margin-bottom: 40px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 70px;
   }
+
   .soft-heading {
-    margin-left: 50px;
-    font-size: 35px;
-    margin-bottom: 40px;
+    margin-left: 100px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .technical{
+    margin-right:200px
   }
   .grid-skills-technical {
-    row-gap: 5px;
+    row-gap: 20px;
+    column-gap: 30px;
+    margin-left: 70px;
+    margin-bottom: 50px;
   }
   .grid-skills-soft {
-    row-gap: 5px;
+    row-gap: 20px;
+    column-gap: 30px;
+    margin-left: 70px;
   }
 
   .Txt-skills {
-    font-size: 15px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 10px;
+    font-size: 30px;
+ 
   }
   .img-skills {
-    width: 50px;
+    width: 130px;
   }
-  /* Education */
-  .University {
-    font-size: 30px;
-  }
-
-  .education-section {
-    height: 300px;
-  }
-  .University-info {
-    font-size: 20px;
-  }
-  .Just-img {
-    width: 150px;
-    margin-right: 70px;
-  }
-  /* language */
-
+  /* Language */
   .flex-language {
     column-gap: 15px;
   }
   .heading-Languages {
-    font-size: 30px;
-    margin-left: 50px;
+    font-size: 80px;
+    margin-left:150px;
     margin-top: 100px;
+    margin-right:100px;
   }
 
   .lng {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .progress-arabic {
-    max-width: 400px;
-    height: 20px;
+    width: 600px;
+    height: 30px;
   }
 
   .percentage {
-    margin-left: 350px;
-    font-size: 20px;
+    margin-left: 400px;
+    font-size: 40px;
   }
   .progress-english {
-    max-width: 400px;
-    height: 20px;
+    width: 600px;
+    height: 30px;
   }
-  /* projects */
-  .Projects-section {
-    height: 400px;
-  }
+/* projects */
   .grid-figure {
-    margin-left: 30px;
-  }
-  .project-animation {
-    min-width: 300px;
-    max-width: 300px;
-    max-height: 500px;
-    height: 200px;
+    grid-template-columns: auto auto;
+    margin-left: 0;
+    
   }
 
+  .project-animation {
+    max-width: 700px;
+    
+  }
   .project-animation h3 {
-    font-size: 25px;
+    font-size:40px;
   }
   .project-animation p {
-    font-size: 15px;
+    font-size: 40px;
   }
   .project-animation .github {
     padding: 3px;
-    font-size: 15px;
+    font-size: 50px;
   }
-  /* References */
-  .References-section {
-    width: 100%;
-    height: 400px;
-  }
-  .img-reference {
-    width: 250px;
-    margin-right: 70px;
-    margin-bottom: 170px;
-  }
-  .references-info {
-    font-size: 15px;
-  }
-
-  .linkedin {
-    font-size: 40px;
-  }
-
-  #name-ref {
-    font-size: 40px;
-  }
-  /* Contact me */
-
-  .number {
-    font-size: 25px;
-    margin-left: 365px;
-  }
-
+  .number,
   .email {
-    font-size: 25px;
-    margin-left: 360px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+
+  .img-reference {
+    width: 100%;
+    max-width:400px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+  }
+
+  .references-info {
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -694,7 +630,6 @@ figure.project-animation.hover figcaption {
     left: 40%;
     width: 750px;
     height: 500px;
-   
   }
 
   .main-right {
@@ -709,11 +644,12 @@ figure.project-animation.hover figcaption {
 
   .main-button {
     font-size: 30px;
-    margin-left:180px;
+    margin-left: 180px;
   }
 
   .icons {
-    margin-top: 10px;margin-left:180px;
+    margin-top: 10px;
+    margin-left: 180px;
     margin-bottom: 10px;
   }
 
@@ -767,26 +703,18 @@ figure.project-animation.hover figcaption {
     grid-template-columns: repeat(2, auto);
   }
   .technical-heading {
-
     font-size: 45px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #8585ec;
-    text-align: center;
     margin-bottom: 70px;
   }
-  .technical{
+  .technical {
     grid-column: 1/12;
   }
-  .soft{
+  .soft {
     grid-column: 1/12;
   }
   .soft-heading {
-   
     margin-left: 100px;
     font-size: 45px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #8585ec;
-    text-align: center;
     margin-bottom: 70px;
   }
   .grid-skills-technical {
@@ -794,7 +722,6 @@ figure.project-animation.hover figcaption {
     column-gap: 25px;
     margin-left: 70px;
     margin-bottom: 50px;
-    
   }
   .grid-skills-soft {
     row-gap: 15px;
@@ -804,11 +731,10 @@ figure.project-animation.hover figcaption {
   .image-text {
     text-align: center;
   }
-  
+
   .Txt-skills {
     margin-top: 10px;
     font-size: 22px;
-    font-family: Georgia, "Times New Roman", Times, serif;
   }
   .img-skills {
     width: 100px;
@@ -818,7 +744,6 @@ figure.project-animation.hover figcaption {
     font-size: 30px;
   }
   .education-section {
-    background-color: #5f5fdc;
     width: 750px;
     height: 650px;
   }
@@ -863,24 +788,22 @@ figure.project-animation.hover figcaption {
   }
   /* projects */
   .Projects-section {
-    background-color: #5f5fdc;
+
     width: 750px;
     height: 900px;
   }
 
-  .figure1{
+  .figure1 {
     grid-column: 1/12;
-   
   }
   .grid-figure {
-    margin-left:100px;
+    margin-left: 100px;
   }
   .project-animation {
     min-width: 300px;
-    max-width:500px;
+    max-width: 500px;
     max-height: 500px;
     height: 350px;
-    
   }
 
   .project-animation img {
