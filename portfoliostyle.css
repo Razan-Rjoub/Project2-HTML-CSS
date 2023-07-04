@@ -1,0 +1,934 @@
+a:hover {
+  border-bottom: 3px solid #5f5fdc;
+}
+
+.nav-link {
+  transition: all 0.1s;
+}
+
+a {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.scroll-div {
+  scroll-behavior: smooth;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.navbar-item.active {
+  border-bottom: 3px solid #5f5fdc;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+#developer {
+  color: #5f5fdc;
+}
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  width:2000px;
+  margin-top: 150px;
+  position: relative;
+  top: 0;
+}
+.name {
+  font-family: "Fredoka", sans-serif;
+  font-size: 80px;
+}
+.main-paragraph {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+}
+.image {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 1000px;
+  width: 750px;
+}
+
+.main-triangle {
+  left: 40%;
+  border: 1px solid #8585ec;
+  width: 100%;
+  height: 650px;
+  background-color: #8585ec;
+}
+
+.main-right {
+  grid-column: 1/6;
+  margin-left: 25px;
+}
+
+.main-left {
+  grid-column: 6/12;
+}
+
+.main-button {
+  font-size: 40px;
+  background-color: #5f5fdc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 300px;
+  border: #5f5fdc;
+}
+
+.icons {
+  margin-top: 80px;
+}
+
+.github-icon {
+  font-size: 70px;
+  color: rgb(30, 30, 30);
+  border-radius: 50%;
+  border: 2px solid #5f5fdc;
+  padding: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.linkedin-icon {
+  font-size: 70px;
+  color: #3d6ad5;
+  border-radius: 50%;
+  border: 2px solid #5f5fdc;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.whatsapp-icon {
+  font-size: 70px;
+  color: #4cae50;
+  border-radius: 50%;
+  border: 2px solid #5f5fdc;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.facebook-icon {
+  font-size: 70px;
+  color: #3d6ad5;
+  border-radius: 50%;
+  border: 2px solid #5f5fdc;
+  padding: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.facebook-icon:hover {
+  text-decoration: none;
+  color: #1554e8;
+}
+
+.whatsapp-icon:hover {
+  text-decoration: none;
+  color: #37d23c;
+}
+
+.github-icon:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkedin-icon:hover {
+  text-decoration: none;
+  color: #1554e8;
+}
+
+.about-position {
+  background-color: #5f5fdc;
+  width:2000px;
+  height: 650px;
+}
+
+.margin {
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+.heading {
+  font-family: "Fredoka", sans-serif;
+  font-size: 90px;
+  color: white;
+  padding-top: 30px;
+}
+
+.about-Heading2 {
+  font-family: "EB Garamond", serif;
+
+  font-size: 50px;
+  color: white;
+  padding-top: 30px;
+}
+
+.about-body {
+  font-family: "EB Garamond", serif;
+  font-size: 35px;
+  color: #bdbcbc;
+  padding-top: 10px;
+}
+
+.heading-purple {
+  font-family: "Fredoka", sans-serif;
+  font-size: 90px;
+  color: #5f5fdc;
+  padding-top: 30px;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.technical-heading {
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #8585ec;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.soft-heading {
+  margin-left: 100px;
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #8585ec;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.grid-skills-technical {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  row-gap: 10px;
+}
+.grid-skills-soft {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 10px;
+}
+.image-text {
+  text-align: center;
+}
+
+.Txt-skills {
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.img-skills {
+  width: 100px;
+}
+/* Education */
+.University {
+  font-size: 60px;
+  font-family: "EB Garamond", serif;
+  color: white;
+}
+
+.education-section {
+  background-color: #5f5fdc;
+  width:2000px;
+  height: 650px;
+}
+.University-info {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #bdbcbc;
+}
+.Just-img {
+  width: 300px;
+  margin-right: 70px;
+}
+.University-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.flex-language {
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+}
+.heading-Languages {
+  font-family: "Fredoka", sans-serif;
+  font-size: 90px;
+  color: #5f5fdc;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.lng {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.progress-arabic {
+  width: 100%;
+  max-width: 500px;
+  border: 3px solid #5f5fdc;
+  height: 30px;
+  background-color: #5f5fdc;
+}
+
+.progress-bar-arabic {
+  height: 100%;
+  width: 0%;
+  background-color: #8585ec;
+  animation-name: fill-bar;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes fill-bar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.percentage {
+  margin-left: 450px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.progress-english {
+  width: 100%;
+  max-width: 500px;
+  border: 3px solid #5f5fdc;
+  height: 30px;
+  background-color: #5f5fdc;
+}
+.progress-bar-english {
+  height: 100%;
+  width: 0%;
+
+  background-color: #8585ec;
+  animation-name: fill-bar-english;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@keyframes fill-bar-english {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+.Projects-section {
+  background-color: #5f5fdc;
+  width:2000px;
+  height: 650px;
+}
+.grid-figure {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-left: 70px;
+}
+.project-animation {
+  font-family: "Fredoka", sans-serif;
+  color: #ffffff;
+  min-width: 200px;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  text-align: left;
+  background-color: #8585ec;
+  font-size: 30px;
+  perspective: 50em;
+}
+.project-animation * {
+  transition: ease;
+  transition: all;
+  transition-duration: 1s;
+}
+.project-animation img {
+  width: 100%;
+  transform-origin: 50% 100%;
+}
+.project-animation figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  padding: 20px 30px;
+}
+
+.project-animation h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.project-animation p {
+  font-size: 25px;
+}
+.project-animation .github {
+  text-decoration: none;
+  border: 2px solid #5f5fdc;
+  padding: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+.project-animation .github:hover {
+  background-color: #5f5fdc;
+  color: white;
+}
+
+.project-animation:hover img {
+  transform: rotateX(90deg);
+  opacity: 0;
+}
+figure.project-animation:hover figcaption,
+figure.project-animation.hover figcaption {
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+.icons2 {
+  margin-top: 50px;
+}
+.footer-section {
+  border: 1px solid #4545f8;
+  width:2000px;
+
+}
+.number {
+  display: inline;
+  color: #8585ec;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-left: 600px;
+}
+.number:hover {
+  color: #5f5fdc;
+  text-decoration: none;
+  border-bottom: #8585ec;
+}
+
+.email {
+  display: inline;
+  color: #8585ec;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-left: 1000px;
+}
+.email:hover {
+  color: #5f5fdc;
+  text-decoration: none;
+  border-bottom: #8585ec;
+}
+.References-section {
+   width:2000px;
+  height: 650px;
+}
+.img-reference {
+  width: 400px;
+  margin-right: 70px;
+  display: inline-block;
+  margin-bottom: 300px;
+}
+.references-info {
+  display: inline-block;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.linkedin {
+  font-size: 80px;
+}
+.linkedin:hover {
+  text-decoration: none;
+  border-bottom: #fff2f2;
+}
+#name-ref {
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+ 
+  .name {
+    font-size: 30px;
+  }
+  .main-paragraph {
+    font-size: 25px;
+    padding-left: 5px;
+  }
+  .image {
+    left: 280px;
+    width: 500px;
+    bottom: 0px;
+  }
+
+  .main-triangle {
+    border: 1px solid #8585ec;
+    width: 300px;
+    height: 500px;
+    background-color: #8585ec;
+  }
+
+  .main-button {
+    font-size: 20px;
+    margin-left: 10px;
+
+    width: 200px;
+  }
+
+  .icons {
+    margin-top: 80px;
+  }
+  .github-icon {
+    font-size: 40px;
+  }
+
+  .linkedin-icon {
+    font-size: 40px;
+  }
+
+  .whatsapp-icon {
+    font-size: 40px;
+  }
+
+  .facebook-icon {
+    font-size: 40px;
+  }
+  /* about */
+  .about-position {
+ 
+    height: 500px;
+  }
+
+  .margin {
+    margin-left: 50px;
+  }
+
+  .heading {
+    padding-top: 20px;
+  }
+
+  .about-Heading2 {
+    font-size: 30px;
+  }
+
+  .about-body {
+    font-size: 24px;
+  }
+
+  .heading-purple {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  /* Skills */
+
+  .technical-heading {
+    font-size: 35px;
+
+    margin-bottom: 40px;
+  }
+  .soft-heading {
+    margin-left: 50px;
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .grid-skills-technical {
+    row-gap: 5px;
+  }
+  .grid-skills-soft {
+    row-gap: 5px;
+  }
+
+  .Txt-skills {
+    font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .img-skills {
+    width: 50px;
+  }
+  /* Education */
+  .University {
+    font-size: 30px;
+  }
+
+  .education-section {
+    height: 300px;
+  }
+  .University-info {
+    font-size: 20px;
+  }
+  .Just-img {
+    width: 150px;
+    margin-right: 70px;
+  }
+  /* language */
+
+  .flex-language {
+    column-gap: 15px;
+  }
+  .heading-Languages {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .lng {
+    font-size: 30px;
+  }
+
+  .progress-arabic {
+    max-width: 400px;
+    height: 20px;
+  }
+
+  .percentage {
+    margin-left: 350px;
+    font-size: 20px;
+  }
+  .progress-english {
+    max-width: 400px;
+    height: 20px;
+  }
+  /* projects */
+  .Projects-section {
+    height: 400px;
+  }
+  .grid-figure {
+    margin-left: 30px;
+  }
+  .project-animation {
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 500px;
+    height: 200px;
+  }
+
+  .project-animation h3 {
+    font-size: 25px;
+  }
+  .project-animation p {
+    font-size: 15px;
+  }
+  .project-animation .github {
+    padding: 3px;
+    font-size: 15px;
+  }
+  /* References */
+  .References-section {
+    width: 100%;
+    height: 400px;
+  }
+  .img-reference {
+    width: 250px;
+    margin-right: 70px;
+    margin-bottom: 170px;
+  }
+  .references-info {
+    font-size: 15px;
+  }
+
+  .linkedin {
+    font-size: 40px;
+  }
+
+  #name-ref {
+    font-size: 40px;
+  }
+  /* Contact me */
+
+  .number {
+    font-size: 25px;
+    margin-left: 365px;
+  }
+
+  .email {
+    font-size: 25px;
+    margin-left: 360px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    width: 400px;
+    margin-top: 150px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .main-paragraph {
+    font-size: 38px;
+  }
+  .image {
+    bottom: 395px;
+    left: 80px;
+    width: 550px;
+  }
+
+  .main-triangle {
+    left: 40%;
+    width: 750px;
+    height: 500px;
+   
+  }
+
+  .main-right {
+    grid-column: 1/12;
+    margin-left: 25px;
+  }
+
+  .main-left {
+    grid-column: 1/12;
+    grid-row: 1/2;
+  }
+
+  .main-button {
+    font-size: 30px;
+    margin-left:180px;
+  }
+
+  .icons {
+    margin-top: 10px;margin-left:180px;
+    margin-bottom: 10px;
+  }
+
+  .github-icon {
+    font-size: 30px;
+  }
+
+  .linkedin-icon {
+    font-size: 30px;
+  }
+
+  .whatsapp-icon {
+    font-size: 30px;
+  }
+
+  .facebook-icon {
+    font-size: 30px;
+  }
+  /* about */
+  .about-position {
+    width: 750px;
+    height: 500px;
+  }
+
+  .margin {
+    margin-left: 15px;
+  }
+
+  .heading {
+    padding-top: 35px;
+  }
+
+  .about-Heading2 {
+    font-size: 30px;
+  }
+
+  .about-body {
+    font-size: 28px;
+  }
+
+  .heading-purple {
+    font-size: 35px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  /* Skills */
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .technical-heading {
+
+    font-size: 45px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #8585ec;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .technical{
+    grid-column: 1/12;
+  }
+  .soft{
+    grid-column: 1/12;
+  }
+  .soft-heading {
+   
+    margin-left: 100px;
+    font-size: 45px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #8585ec;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .grid-skills-technical {
+    row-gap: 15px;
+    column-gap: 25px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    
+  }
+  .grid-skills-soft {
+    row-gap: 15px;
+    column-gap: 25px;
+    margin-left: 70px;
+  }
+  .image-text {
+    text-align: center;
+  }
+  
+  .Txt-skills {
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .img-skills {
+    width: 100px;
+  }
+  /* Education */
+  .University {
+    font-size: 30px;
+  }
+  .education-section {
+    background-color: #5f5fdc;
+    width: 750px;
+    height: 650px;
+  }
+
+  .education-section {
+    height: 300px;
+  }
+  .University-info {
+    font-size: 20px;
+  }
+  .Just-img {
+    width: 150px;
+    margin-right: 70px;
+  }
+  /* language */
+
+  .flex-language {
+    column-gap: 15px;
+  }
+  .heading-Languages {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .lng {
+    font-size: 30px;
+  }
+
+  .progress-arabic {
+    max-width: 400px;
+    height: 20px;
+  }
+
+  .percentage {
+    margin-left: 350px;
+    font-size: 20px;
+  }
+  .progress-english {
+    max-width: 400px;
+    height: 20px;
+  }
+  /* projects */
+  .Projects-section {
+    background-color: #5f5fdc;
+    width: 750px;
+    height: 900px;
+  }
+
+  .figure1{
+    grid-column: 1/12;
+   
+  }
+  .grid-figure {
+    margin-left:100px;
+  }
+  .project-animation {
+    min-width: 300px;
+    max-width:500px;
+    max-height: 500px;
+    height: 350px;
+    
+  }
+
+  .project-animation img {
+    width: 500px;
+    transform-origin: 50% 100%;
+  }
+  .project-animation h3 {
+    font-size: 25px;
+  }
+  .project-animation p {
+    font-size: 30px;
+  }
+  .project-animation .github {
+    padding: 3px;
+    font-size: 30px;
+  }
+  /* References */
+  .References-section {
+    width: 750px;
+    height: 400px;
+  }
+  .img-reference {
+    width: 250px;
+    margin-right: 70px;
+    margin-bottom: 170px;
+  }
+  .references-info {
+    font-size: 20px;
+  }
+
+  .linkedin {
+    font-size: 40px;
+  }
+
+  #name-ref {
+    font-size: 40px;
+  }
+  /* Contact me */
+  .footer-section {
+    width: 750px;
+  }
+  .number {
+    font-size: 25px;
+    margin-left: 365px;
+  }
+
+  .email {
+    font-size: 25px;
+    margin-left: 360px;
+  }
+}
