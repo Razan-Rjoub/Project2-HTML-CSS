@@ -10,7 +10,7 @@ a {
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+.img-logo{width: 70px}
 .scroll-div {
   scroll-behavior: smooth;
   width: 200px;
@@ -65,7 +65,7 @@ a {
 
 .main-right {
   grid-column: 1/6;
-  margin-left: 25px;
+  margin-left: 150px;
 }
 
 .main-left {
@@ -222,12 +222,12 @@ a {
 .grid-skills-technical {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  row-gap: 10px;
+  row-gap: 50px;
 }
 .grid-skills-soft {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  row-gap: 10px;
+  row-gap: 40px;
 }
 .image-text {
   text-align: center;
@@ -235,7 +235,7 @@ a {
 
 .Txt-skills {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .img-skills {
@@ -340,7 +340,9 @@ a {
     width: 70%;
   }
 }
-
+.fig-hint {
+  text-align: center;
+}
 .Projects-section {
   background-color: #5f5fdc;
   width: 2000px;
@@ -410,38 +412,7 @@ figure.project-animation.hover figcaption {
   opacity: 1;
   transition-delay: 0.2s;
 }
-.icons2 {
-  margin-top: 50px;
-}
-.footer-section {
-  border: 1px solid #4545f8;
-  width: 2000px;
-}
-.number {
-  display: inline;
-  color: #8585ec;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 50px;
-  margin-left: 600px;
-}
-.number:hover {
-  color: #5f5fdc;
-  text-decoration: none;
-  border-bottom: #8585ec;
-}
 
-.email {
-  display: inline;
-  color: #8585ec;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 50px;
-  margin-left: 1000px;
-}
-.email:hover {
-  color: #5f5fdc;
-  text-decoration: none;
-  border-bottom: #8585ec;
-}
 .References-section {
   width: 2000px;
   height: 650px;
@@ -470,41 +441,88 @@ figure.project-animation.hover figcaption {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
 }
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 50px;
+}
+.footer-section{
+  width: 2000px;
+}
+.Logo-footer {
+  width: 160px;
+  font-weight: bold;
+}
+
+.contact-info h5 {
+  font-size: 25px;
+  color: #5f5fdc;
+  font-weight: bolder;
+}
+.contact-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+.links-foot {
+  color: #5f5fdc;
+  font-size: 20px;
+}
+.Copyright {
+  font-size: small;
+  color: #808080;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
+  .navbar-toggler{
+    font-size: 45px;
+  }
+  .img-logo{
+    width: 100px;
+  }
+  .navbar-brand{
+    font-size: 70px;
+  }
   .main {
     grid-template-columns: auto auto;
     margin-top: 100px;
   }
 
+
   .image {
-    width: 900px;
+    width: 1200px;
     margin-bottom: 0 px;
-    margin-left: 0px;
+    margin-left: -200px;
   }
 
   .main-paragraph {
     font-size: 50px;
+    margin-top: 150px;
   }
 
-  .main-right{
-margin-left: 100px;
+  .main-right {
+    margin-left: 100px;
   }
-.main-triangle{
-  height:800px
-}
+  .main-triangle {
+    height: 1100px;
+  }
   .main-button {
     margin-left: 0;
     margin-bottom: 20px;
   }
-.heading-purple{
-  font-size: 60px;
-}
-.heading{
-  font-size: 60px;
-}
+  .heading-purple {
+    font-size: 70px;
+  }
+  .heading {
+    font-size: 70px;
+  }
   .icons {
     margin-top: 50px;
+  }
+  .about-body {
+    
+    font-size: 45px;
   }
   /* skills */
 
@@ -520,8 +538,8 @@ margin-left: 100px;
     text-align: center;
     margin-bottom: 70px;
   }
-  .technical{
-    margin-right:200px
+  .technical {
+    margin-right: 200px;
   }
   .grid-skills-technical {
     row-gap: 20px;
@@ -538,7 +556,6 @@ margin-left: 100px;
   .Txt-skills {
     margin-top: 10px;
     font-size: 30px;
- 
   }
   .img-skills {
     width: 130px;
@@ -549,9 +566,9 @@ margin-left: 100px;
   }
   .heading-Languages {
     font-size: 80px;
-    margin-left:150px;
+    margin-left: 150px;
     margin-top: 100px;
-    margin-right:100px;
+    margin-right: 100px;
   }
 
   .lng {
@@ -571,19 +588,17 @@ margin-left: 100px;
     width: 600px;
     height: 30px;
   }
-/* projects */
+  /* projects */
   .grid-figure {
     grid-template-columns: auto auto;
     margin-left: 0;
-    
   }
 
   .project-animation {
     max-width: 700px;
-    
   }
   .project-animation h3 {
-    font-size:40px;
+    font-size: 40px;
   }
   .project-animation p {
     font-size: 40px;
@@ -592,15 +607,11 @@ margin-left: 100px;
     padding: 3px;
     font-size: 50px;
   }
-  .number,
-  .email {
-    font-size: 40px;
-    margin-left: 100px;
-  }
+ 
 
   .img-reference {
     width: 100%;
-    max-width:400px;
+    max-width: 400px;
     margin-right: 100px;
     margin-bottom: 300px;
   }
@@ -608,8 +619,36 @@ margin-left: 100px;
   .references-info {
     font-size: 35px;
   }
+  .grid-footer {
+    column-gap:0px;
+  }
+
+  .Logo-footer {
+    width: 140px;
+  }
+  
+  .contact-info h5 {
+    font-size: 20px;
+  }
+
+  .contact-info {
+    font-size: 20px;
+  }
+  .links-foot {
+    font-size: 20px;
+  }
+  .Copyright {
+
+    margin-left: 200px;
+  }
 }
 @media screen and (max-width: 480px) {
+  .navbar-toggler{
+    font-size: 30px;
+  }
+  .img-logo{
+    width: 55px;
+  }
   .main {
     width: 400px;
     margin-top: 150px;
@@ -788,7 +827,6 @@ margin-left: 100px;
   }
   /* projects */
   .Projects-section {
-
     width: 750px;
     height: 900px;
   }
@@ -845,13 +883,33 @@ margin-left: 100px;
   .footer-section {
     width: 750px;
   }
-  .number {
-    font-size: 25px;
-    margin-left: 365px;
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap:0px;
   }
 
-  .email {
-    font-size: 25px;
-    margin-left: 360px;
+  .Logo-footer {
+    width: 70px;
+    font-weight: bold;
+  }
+  
+  .contact-info h5 {
+    font-size: 15px;
+  
+    font-weight: small;
+  }
+
+  .contact-info {
+    font-size: 15px;
+    font-weight: small;
+  }
+  .links-foot {
+    color: #5f5fdc;
+    font-size:18px;
+  }
+  .Copyright {
+    font-size: small;
+    margin-left: 0px;
   }
 }
